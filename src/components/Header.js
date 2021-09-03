@@ -26,28 +26,44 @@ const Header = () => {
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "products, brands"}
+                  : ""}
               </h1>
               <h1>
                 {" "}
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
-                  : "and experience"}
+                  : ""}
               </h1>
             </div>
           </Fade>
           <Fade bottom>
             <p>{data.headerParagraph}</p>
           </Fade>
-          <Fade bottom>
+          <Fade bottom >
+            <div className="button-wrapper">
             <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
-              }`}
-              className="primary-btn"
-            >
-              CONNECT WITH ME
-            </a>
+                href={`mailto:${
+                  data.contactEmail ? data.contactEmail : "luoy8865@gmail.com"
+                }`}
+                className="primary-btn"
+              >
+                CONNECT WITH ME
+              </a>
+
+              <a
+                href={
+                  "https://drive.google.com/file/d/1MK1wMJ7TBbMn89VunS9rLNjUQJHMPKeU/view?usp=sharing"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primary-btn"
+              >
+                
+                MY RESUME
+              </a>
+            </div>
+              
+            
           </Fade>
         </div>
       </div>

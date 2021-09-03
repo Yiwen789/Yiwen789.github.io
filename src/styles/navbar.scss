@@ -10,17 +10,18 @@
   .links-wrapper {
     button {
       text-decoration: none;
-      padding: 10px;
+      padding: 24px;
       font-family: "Open Sans";
       opacity: 0.6;
       transition: all 0.2s ease-in-out;
-      font-size: 12px;
+      font-size: 16px;
       background-color: transparent;
       outline: none;
       border: 0px;
       cursor: pointer;
       &:hover {
         opacity: 1;
+        font-weight: bold;
       }
     }
     .active {

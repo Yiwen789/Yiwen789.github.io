@@ -27,7 +27,7 @@
 
     h1 {
       font-size: 3rem;
-      line-height: 20px;
+      line-height: 30px;
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
@@ -36,6 +36,8 @@
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
+      font-size: 18px;
+      line-height: 150%;
     }
   }
   .image-wrapper {

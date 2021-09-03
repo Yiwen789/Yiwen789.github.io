@@ -1,6 +1,10 @@
-import React from "react"
+import React from "react";
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+// Social Icon
+import githubIcon from "../../images/github.svg";
+import externalLinkIcon from "../../images/external-link.svg";
+
+const Card = ({ heading, paragraph, techStack, imgUrl, projectLink, githubLink }) => {
   return (
     <div
       className="card"
@@ -14,17 +18,23 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       <div className="content">
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
+        <p className="techstack-text">{techStack}</p>
         <a
           href={projectLink ? projectLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn"
+          className="icon-link"
         >
-          Explore
+          <img className="icon" src={externalLinkIcon} alt="" />
+        </a>
+        <a
+        href={githubLink ? githubLink: "#"}
+        className="icon-link">
+          <img className="icon" src={githubIcon} alt="" />
         </a>
       </div>
     </div>
   )
 }
 
-export default Card
+export default Card;

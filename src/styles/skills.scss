@@ -11,7 +11,7 @@
 
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 50px;
     grid-gap: 20px;
     @include media(">=phone", "<lgphone") {
@@ -24,10 +24,13 @@
       grid-template-columns: 1fr 1fr;
     }
     .skill {
-      display: flex;
-      flex-direction: column;
+      display: inline-block;
+      flex-direction: row;
       align-items: center;
       text-align: center;
+      margin: 0;
+      cursor: default;
+      background: #e4e4ea;
       img {
         height: 3rem;
       }

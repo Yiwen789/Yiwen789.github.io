@@ -36,10 +36,17 @@
       }
     }
   }
+  .button-wrapper {
+    margin-top: 15px;
+    flex-direction: row;
+    text-align: center;
+    line-height: 30px;
+  }
   p {
     width: 50%;
     text-align: center;
     overflow: hidden;
+    font-size: 20px;
     @include media(">=phone", "<lgphone") {
       font-size: 12px;
       width: 100%;

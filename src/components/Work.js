@@ -10,7 +10,7 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work</h1>
+            <h1>Some Things I've Built</h1>
           </Fade>
 
           <div className="grid">
@@ -20,8 +20,10 @@ const Work = () => {
                   key={index}
                   heading={project.title}
                   paragraph={project.para}
+                  techStack={project.tech}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
+                  githubLink={project.githubUrl}
                 ></Card>
               ))}
             </Fade>
