@@ -8,7 +8,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
   .content {
     font-family: "Open Sans";
     text-align: center;
@@ -41,6 +40,8 @@
       opacity: 1;
       transform: translate(0, 0px);
       background: rgba(113, 121, 126, 0.4);
+      align-content: space-around;
+      flex-wrap: wrap;
     }
     .icon-link {
       display: inline-block;
@@ -50,6 +51,12 @@
       display: inline-block;
       width: 25px;
       height: 25px;
+      &:hover {
+        position: relative;
+        top: -2px;
+        box-shadow: 1px 1px 1px 1px gray;
+        border-radius: 5px;
+      }
     }
   }
 }

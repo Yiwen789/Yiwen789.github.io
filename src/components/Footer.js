@@ -27,10 +27,10 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            <h6>
+            {/* <h6>
               Scaffolding by{" "}
               <a href="https://www.chetanverma.com/">Chetan Verma</a>
-            </h6>
+            </h6> */}
           </span>
         </div>
       </div>

@@ -51,5 +51,8 @@ body {
   cursor: pointer;
   &:hover {
     transform: scale(1.1);
+    position: relative;
+    top: -3px;
+    box-shadow: 1px 5px 2px 2px gray;
   }
 }
