@@ -14,6 +14,9 @@ import instagramIcon from "./images/instagram.svg"
 
 //project image
 import blogtivityImage from "./images/blog-tivity.png";
+import unemploymentDashboardImage from "./images/unemployment-dashboard.png";
+import reactNativeImage from "./images/react-native-logo.jpeg";
+import todoAppImage from "./images/todo-app.png";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -44,7 +47,7 @@ export default {
       "React, Spring Boot",
         //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        todoAppImage,
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
       githubUrl: "http://chetanverma.com/",
@@ -75,6 +78,19 @@ export default {
       githubUrl: "http://chetanverma.com/",
     },
     {
+      title: "Unemployment Statistics Dashboard", //Project Title - Add Your Project Title Here
+      para:
+        "Examine unemployment and many more economic metrics with the time series visualizations, map, and tables on this interactive dashboards ", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      tech: //Tech stack
+      "Python, Plotly.js",
+      imageSrc:
+        unemploymentDashboardImage,
+      //Project URL - Add Your Project Url Here
+      url: "https://labor-stats-dashboard.herokuapp.com/",
+      githubUrl: "https://github.com/Yiwen789/Labor-Stats-Dashboard",
+    },
+    {
       title: "React Native Development", //Project Title - Add Your Project Title Here
       para:
         "Coming Soon! Users can input recipes and available goods in the house to automatically generate grocery list", // Add Your Service Type Here
@@ -82,7 +98,7 @@ export default {
       tech: //Tech stack
       "React Native, Redux",
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        reactNativeImage,
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
       githubUrl: "http://chetanverma.com/",
