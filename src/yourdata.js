@@ -13,10 +13,10 @@ import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
 //project image
-import blogtivityImage from "./images/blog-tivity.png";
-import unemploymentDashboardImage from "./images/unemployment-dashboard.png";
-import reactNativeImage from "./images/react-native-logo.jpeg";
-import todoAppImage from "./images/todo-app.png";
+// import blogtivityImage from "./images/github.svg";
+// import unemploymentDashboardImage from "./images/unemployment-dashboard.png";
+// import reactNativeImage from "./images/react-native-logo.jpeg";
+// import todoAppImage from "./images/todo-app.png";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -47,9 +47,9 @@ export default {
       "React, Spring Boot",
         //Project Image - Add Your Project Image Here
       imageSrc:
-        todoAppImage,
+        "https://imgur.com/BOH6Sjf",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://imgur.com/2cNGJL1",
       githubUrl: "http://chetanverma.com/",
     },
     {
@@ -59,7 +59,7 @@ export default {
       tech: //Tech stack
       "React, Redux",  //Project Image - Add Your Project Image Here
       imageSrc:
-        blogtivityImage,
+        "https://imgur.com/DfCCJb9",
       //Project URL - Add Your Project Url Here
       url: "https://yiwen789.github.io/blog-tivity/",
       githubUrl: "https://github.com/Yiwen789/blog-tivity",
@@ -72,7 +72,7 @@ export default {
       "React, Spring",
         //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://imgur.com/P6VcUsT",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
       githubUrl: "http://chetanverma.com/",
@@ -85,7 +85,7 @@ export default {
       tech: //Tech stack
       "Python, Plotly.js",
       imageSrc:
-        unemploymentDashboardImage,
+        "https://imgur.com/p7RHk6V",
       //Project URL - Add Your Project Url Here
       url: "https://labor-stats-dashboard.herokuapp.com/",
       githubUrl: "https://github.com/Yiwen789/Labor-Stats-Dashboard",
@@ -98,9 +98,9 @@ export default {
       tech: //Tech stack
       "React Native, Redux",
       imageSrc:
-        reactNativeImage,
+        "https://imgur.com/ntOShGU",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://imgur.com/1Rkal5T",
       githubUrl: "http://chetanverma.com/",
     },
 
