@@ -47,10 +47,10 @@ export default {
       "React, Spring Boot",
         //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://imgur.com/BOH6Sjf",
+        "https://i.imgur.com/BOH6Sjf.jpeg",
       //Project URL - Add Your Project Url Here
       url: "https://imgur.com/2cNGJL1",
-      githubUrl: "http://chetanverma.com/",
+      githubUrl: "https://github.com/Yiwen789/todo-app",
     },
     {
       title: "Blog-tivity", //Project Title - Add Your Project Title Here
@@ -59,7 +59,7 @@ export default {
       tech: //Tech stack
       "React, Redux",  //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://imgur.com/DfCCJb9",
+        "https://i.imgur.com/DfCCJb9.jpeg",
       //Project URL - Add Your Project Url Here
       url: "https://yiwen789.github.io/blog-tivity/",
       githubUrl: "https://github.com/Yiwen789/blog-tivity",
@@ -69,13 +69,13 @@ export default {
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       tech: //Tech stack
-      "React, Spring",
+      "Python, JavaScript, Flask, PostgreSQL",
         //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://imgur.com/P6VcUsT",
+        "https://i.imgur.com/P6VcUsT.jpeg",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      githubUrl: "http://chetanverma.com/",
+      url: "https://github.com/Yiwen789/cs257-assignments-Yiwen789",
+      githubUrl: "https://github.com/Yiwen789/cs257-assignments-Yiwen789",
     },
     {
       title: "Unemployment Statistics Dashboard", //Project Title - Add Your Project Title Here
@@ -85,7 +85,7 @@ export default {
       tech: //Tech stack
       "Python, Plotly.js",
       imageSrc:
-        "https://imgur.com/p7RHk6V",
+        "https://i.imgur.com/p7RHk6V.jpeg",
       //Project URL - Add Your Project Url Here
       url: "https://labor-stats-dashboard.herokuapp.com/",
       githubUrl: "https://github.com/Yiwen789/Labor-Stats-Dashboard",
@@ -98,10 +98,10 @@ export default {
       tech: //Tech stack
       "React Native, Redux",
       imageSrc:
-        "https://imgur.com/ntOShGU",
+        "https://i.imgur.com/ntOShGU.jpeg",
       //Project URL - Add Your Project Url Here
-      url: "https://imgur.com/1Rkal5T",
-      githubUrl: "http://chetanverma.com/",
+      url: "https://github.com/Yiwen789",
+      githubUrl: "https://github.com/Yiwen789",
     },
 
     /*
