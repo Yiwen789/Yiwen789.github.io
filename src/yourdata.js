@@ -31,7 +31,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "A first-year MS student in Computer Science at Brandeis University, MA. I'm also an aspiring Full Stack Software Engineer and a part-time tennis lover, swimmer, and climbing enthusiast!",
+    "A 1st year MS student in Computer Science at Brandeis University, MA. I'm also an aspiring Full Stack Software Engineer and a part-time thriller movies/novels lover, swimmer, and travel ethusiast!",
 
   //Contact Email
   contactEmail: "luoy8865@gmail.com",
@@ -123,7 +123,7 @@ export default {
   aboutParaTwo:
     "💻 I am striving to become a computer scientist with a specialization in machine learning where I can combine my knowledge in computer science and statistics. In the meantime I'm also a full-stack developer focused on building high-quality, thoughtful, and inutitive applications to make technology accesible to everyone!",
   aboutParaThree:
-    "🧗‍♀️ I like to spend my free time working on my development projects and following my dream of becoming a computer scientist and engineer. Outside of coding, you can also find me trying to figure out bouldering routes, working out, binge-watching tv show on Disney+, or hanging out with my cat. ",
+    "🧗‍♀️ I like to spend my free time working on my development projects and following my dream of becoming a computer scientist and engineer. Outside of coding, you can also find me working out, binge-watching tv show on Disney+, trying to figure out bouldering routes,or hanging out with my cat. ",
   aboutImage:
     "https://images.unsplash.com/photo-1520646924857-261be3037bc7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMDY4NjcyNA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400",
   //   End About Section ---------------------
